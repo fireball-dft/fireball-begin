@@ -1,0 +1,59 @@
+9                        exchange correlation (3=LDA 9=GGA)
+2                        nexcite (integer from 0-3)
+Gold                     atom name
+Au                       atomic symbol
+79                       atomic number
+196.97                   atomic mass
+3                        number of shells
+0                        angular momentum quantum number for s shell
+1                        angular momentum quantum number for p shell
+2                        angular momentum quantum number for d shell
+1.00                     number of electrons in s shell
+0.00                     number of electrons in p shell
+10.0                     number of electrons in d shell
+1.00                     number of electrons in s shell for 2+ ion
+0.00                     number of electrons in p shell for 2+ ion
+9.00                     number of electrons in d shell for 2+ ion
+11.0                     number of valence electrons
+10.0                     number of valence electrons for 2+ ion
+5.5                      cutoff radius for shell #1
+5.9                      cutoff radius for shell #2
+5.0                      cutoff radius for shell #3
+079.pp                   pseudopotential filename
+079++.pp                 pseudopotential filename for 2+ ion
+079_590.na0              neutral atom filename
+079_550.na1              neutral atom filename for s shell
+079_590.na2              neutral atom filename for p shell
+079_500.na3              neutral atom filename for d shell
+079_550.wf1              wavefunction filename for s shell
+079_590.wf2              wavefunction filename for p shell
+079_500.wf3              wavefunction filename for d shell
+079_550.ena1             neutral atom filename for s shell
+079_590.ena2             neutral atom filename for p shell
+079_500.ena3             neutral atom filename for d shell
+079_550.ewf1             wavefunction filename for s shell
+079_590.ewf2             wavefunction filename for p shell
+079_500.ewf3             wavefunction filename for d shell
+3.0                      minimum cutoff radius - looprc
+8.0                      maximum cutoff radius - looprc
+0.1                      delta between cutoffs - looprc
+079.eig                  eigenvalues file - looprc
+1                        optimize basis set (1 or 0)
+0.0                      Vo parameter for s shell
+10.0                     Vo parameter for p shell
+0.0                      Vo parameter for d shell
+0.0                      Ro radius for s shell
+0.5                      Ro radius for p shell
+0.0                      Ro radius for d shell
+0.0                      Vo parameter for excited s shell
+0.0                      Vo parameter for excited p shell
+1000.0                   Vo parameter for excited d shell
+0.0                      Ro radius for excited s shell
+0.0                      Ro radius for excited p shell
+0.5                      Ro radius for excited d shell
+2.0                      a0 for s shell
+1.0                      a0 for p shell
+0.8                      a0 for d shell
+1.0                      charge mixing factor for s shell (GSM)
+1.0                      charge mixing factor for p shell (GSM)
+1.0                      charge mixing factor for d shell (GSM)

@@ -1,0 +1,31 @@
+9                        exchange correlation
+0                        use excited states
+Hydrogen                 atom name
+H                        atom abbreviation
+1                        atomic number
+1.0079                   atomic mass
+1                        number of shells
+0                        angular momentum for s shell
+1                        number of electrons in s shell
+0                        number of electrons in s shell (excited)
+1                        number of valence electrons
+0                        number of valence electrons (excited)
+4.1                      cutoff radius for s shell
+001.pp                   pseudopotential file
+001++.pp                 pseudopotential filename (excited)
+001_410.na0              neutral atom filename
+001_410.na1              neutral atom filename for s shell
+001_410.wf1              wavefunction filename for s shell
+001_410.ena1             neutral atom filename for s shell
+001_410.ewf1             wavefunction filename for s shell
+3.0                      looprc smallest cutoff radii
+6.0                      looprc largest cutoff radii
+0.1                      looprc delta for cutoff radii
+001.eig                  looprc eigenvalue filename
+0                        optimize basis set with x-confinement potential
+0.0                      Vo for s shell
+0.0                      r0 for s shell
+0.0                      Vo for s shell (excited)
+0.0                      r0 for s shell (excited)
+2.0                      a0 for s shell
+1.0                      charge mixing factor for s shell

@@ -1,0 +1,59 @@
+9                        exchange correlation
+2                        use excited states
+Sulphur                  atom name
+S                        atom abbreviation
+16                       atomic number
+32.07                    atomic mass
+3                        number of shells
+0                        angular momentum for s shell
+1                        angular momentum for p shell
+2                        angular momentum for d shell
+2                        number of electrons in s shell
+4                        number of electrons in p shell
+0                        number of electrons in d shell
+1.5                      number of electrons in s shell (excited)
+2.5                      number of electrons in p shell (excited)
+0                        number of electrons in d shell (excited)
+6                        number of valence electrons
+4                        number of valence electrons (excited)
+4.7                      cutoff radius for s shell
+5.0                      cutoff radius for p shell
+5.0                      cutoff radius for d shell
+016.pp                   pseudopotential file
+016++.pp                 pseudopotential filename (excited)
+016_500.na0              neutral atom filename
+016_470.na1              neutral atom filename for s shell
+016_500.na2              neutral atom filename for p shell
+016_500.na3              neutral atom filename for d shell
+016_470.wf1              wavefunction filename for s shell
+016_500.wf2              wavefunction filename for p shell
+016_500.wf3              wavefunction filename for d shell
+016_470.ena1             neutral atom filename for s shell
+016_500.ena2             neutral atom filename for p shell
+016_500.ena3             neutral atom filename for d shell
+016_470.ewf1             wavefunction filename for s shell
+016_500.ewf2             wavefunction filename for p shell
+016_500.ewf3             wavefunction filename for d shell
+3.0                      looprc smallest cutoff radii
+6.0                      looprc largest cutoff radii
+0.1                      looprc delta for cutoff radii
+016.eig                  looprc eigenvalue filename
+1                        optimize basis set with x-confinement potential
+0.0                      Vo for s shell
+0.0                      Vo for p shell
+50.0                     Vo for d shell
+0.0                      r0 for s shell
+0.0                      r0 for p shell
+0.5                      r0 for d shell
+1.25                     Vo for s shell (excited)
+1.25                     Vo for p shell (excited)
+0.0                      Vo for d shell (excited)
+0.5                      r0 for s shell (excited)
+0.5                      r0 for p shell (excited)
+0.0                      r0 for d shell (excited)
+2.0                      a0 for s shell
+1.0                      a0 for p shell
+0.8                      a0 for d shell
+1.0                      charge mixing factor for s shell
+1.0                      charge mixing factor for p shell
+1.0                      charge mixing factor for d shell

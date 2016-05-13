@@ -1,0 +1,47 @@
+3                        exchange correlation (3=LDA 9=GGA)
+2                        nexcite (integer from 0-3)
+Gallium                  atom name
+Ga                       atomic symbol
+31                       atomic number
+69.723                   atomic mass
+2                        number of shells
+0                        angular momentum quantum number for shell #1
+1                        angular momentum quantum number for shell #2
+2.00                     number of electrons in shell #1
+1.00                     number of electrons in shell #2
+0.75                     number of electrons in shell #1 for 2+ ion
+0.25                     number of electrons in shell #2 for 2+ ion
+3.0                      number of valence electrons
+1.0                      number of valence electrons for 2+ ion
+4.8                      cutoff radius for shell #1
+5.7                      cutoff radius for shell #2
+031.pp                   pseudopotential filename
+031++.pp                 pseudopotential filename for 2+ ion
+031_570.na0              neutral atom filename
+031_480.na1              neutral atom filename for shell #1
+031_570.na2              neutral atom filename for shell #2
+031_480.wf1              wavefunction filename for shell #1
+031_570.wf2              wavefunction filename for shell #2
+031_480.ena1             neutral atom filename for shell #1
+031_570.ena2             neutral atom filename for shell #2
+031_480.ewf1             wavefunction filename for shell #1
+031_570.ewf2             wavefunction filename for shell #2
+3.0                      minimum cutoff radius - looprc
+8.0                      maximum cutoff radius - looprc
+0.1                      delta between cutoffs - looprc
+031.eig                  eigenvalues file - looprc
+1                        optimize basis set (1 or 0)
+3.0                      Vo parameter for shell #1
+3.0                      Vo parameter for shell #2
+0.0                      Ro radius for shell #1
+0.0                      Ro radius for shell #2
+200.0                    Vo parameter for excited shell #1
+200.0                    Vo parameter for excited shell #2
+0.0                      Ro radius for excited shell #1
+0.0                      Ro radius for excited shell #2
+2.0                      a0 for shell #1
+1.0                      a0 for shell #2
+0.8                      a0 for shell #3
+1.0                      charge mixing factor for shell #1 (GSM)
+1.0                      charge mixing factor for shell #2 (GSM)
+1.0                      charge mixing factor for shell #3 (GSM)
