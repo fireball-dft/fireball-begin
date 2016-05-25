@@ -18,7 +18,8 @@ install:
     - git clone https://github.com/fireball-dft/fireball-master.git
     - cd fireball-begin/src
     - ./runme_before_compile.sh
-    - make begin.x begin-looprc.x
+    - make begin.x
+    - make begin-looprc.x
 
 script: true
     # make check PFUNIT=pfunit
