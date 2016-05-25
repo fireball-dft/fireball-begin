@@ -247,7 +247,7 @@
 
         real dr
         real h12
-        real u1, u2, u3
+        double precision :: u1, u2, u3
         real v1, v2, v3
 
         real, dimension (:), allocatable :: r

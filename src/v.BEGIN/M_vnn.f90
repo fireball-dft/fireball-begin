@@ -353,7 +353,7 @@
             open (unit = 22, file = filename, status = 'unknown')
           else
             lssh = species(ispecies)%shell(issh)%lssh
-            if (scan(species(ispecies)%shell(issh)%wffile,'e')) then
+            if (scan(species(ispecies)%shell(issh)%wffile,'e').ne.0) then
               if (lssh .eq. 0) then
                 write (filename,'(a3,".na-s1.dat")') buffer(1:3)
                 open (unit = 22, file = filename, status = 'unknown')
