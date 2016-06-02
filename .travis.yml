@@ -20,6 +20,8 @@ install:
     - ./runme_before_compile.sh
     - make begin.x
     - make begin-looprc.x
+    - make lbegin.x
+    - make lbegin-looprc.x
 
 script: true
     # make check PFUNIT=pfunit
