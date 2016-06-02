@@ -400,7 +400,7 @@
               else
                 v(ipoint) = 2.0d0*(species_PP(ispecies)%vc(ipoint)           &
      &                             + species_PP(ispecies)%vnl(issh,ipoint))  &
-     &                     + vee + vxc + vconfine(issh,ipoint)
+     &                             + vee + vxc + vconfine(issh,ipoint)
               end if
             end do
 
@@ -800,11 +800,11 @@
 ! ===========================================================================
         integer ipoint                   ! loop over mesh points
         integer issh                     ! loop over shells
-!        integer iten, ione, itwo         ! character array places
+!       integer iten, ione, itwo         ! character array places
         integer iten, ione               ! character array places
         integer inum, iremainder
         integer lssh                     ! quantum number l of the shell
-!        integer nssh                     ! loop over maximum shells - nssh
+!       integer nssh                     ! loop over maximum shells - nssh
         integer nZ                       ! atomic number
 
         ! for writing out wavefunctions

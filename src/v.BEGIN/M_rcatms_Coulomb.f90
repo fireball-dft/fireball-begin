@@ -334,10 +334,10 @@
 
         real dr                           !< distance between mesh points
         real r                            !< value of r in Bohr radii
-!        real rmax                         !< maximum value of radial grid
+!       real rmax                         !< maximum value of radial grid
 
 ! Value of density and corresponding derivatives at the point r, z
-!        real rescale                      !< rescale densities
+!       real rescale                      !< rescale densities
         real density
         real density_p, density_pp
 

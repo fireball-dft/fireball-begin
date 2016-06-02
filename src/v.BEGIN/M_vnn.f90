@@ -88,13 +88,13 @@
 
 ! Local Variable Declaration and Description
 ! ===========================================================================
-!        integer ipoint                    ! loop over mesh points
+!       integer ipoint                    ! loop over mesh points
         integer ispecies                  ! loop over species
         integer issh                      ! loop over shells
         integer mesh                      ! new neutral atom potential mesh
         integer nssh                      ! loop over maximum shells - nssh
 
-!        real r, dr                        ! value of grid point and dr
+!       real r, dr                        ! value of grid point and dr
         real dr
 
 ! Allocate Arrays
@@ -159,7 +159,7 @@
 ! ===========================================================================
         integer ipoint, jpoint            ! loop over mesh points
         integer issh                      ! loop over shells
-!        integer iten, ione, itwo          ! character array places
+!       integer iten, ione, itwo          ! character array places
         integer iten, ione                ! character array places
         integer lssh                      ! quantum number l for shell
         integer nssh                      ! loop over maximum shells - nssh
@@ -186,7 +186,7 @@
         real, dimension (:), allocatable :: xnocc    ! occupation number
 
         ! for writing out wavefunctions
-!        integer inum, iremainder
+!       integer inum, iremainder
         real, dimension (:), allocatable :: xx, yy
 
         character (len = 3) buffer
