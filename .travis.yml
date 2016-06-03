@@ -13,12 +13,12 @@ install:
     # sudo apt-get install gcc-4.8 gfortran-4.8 libgomp1 openmpi-bin libopenmpi-dev liblapack-dev libblas-dev
     - sudo apt-get install gcc-4.8 gfortran-4.8 liblapack-dev libblas-dev
     - pwd
-    - ls -al
     - cd ..
     - git clone https://github.com/fireball-dft/fireball-master.git
+    - ls -al fireball-master/src
     - cd fireball-begin/src
-    - ls -al
     - ./runme_before_compile.sh
+    - ls -al
     - make begin.x
     - make begin-looprc.x
     - ls -al libs/
