@@ -2,7 +2,7 @@
 
 MASTER=fireball-master
 
-for i in a.GLOBAL b.FUNCTIONS c.SYSTEM f.MPI g.XC_FUNCTIONALS j.ASSEMBLERS p.HARRIS q.DOGS o.OUTPUT libs include Makefile MACHINES 
+for i in a.GLOBAL b.FUNCTIONS c.SYSTEM f.MPI g.XC_FUNCTIONALS j.ASSEMBLERS p.HARRIS q.DOGS o.OUTPUT include Makefile MACHINES 
 do
     if [ -e $i ]
     then
@@ -10,3 +10,4 @@ do
     fi
     ln -s ../../${MASTER}/src/$i
 done
+mkdir libs
