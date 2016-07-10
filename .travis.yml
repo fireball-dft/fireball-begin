@@ -16,15 +16,9 @@ install:
     - cd ..
     - git clone https://github.com/fireball-dft/fireball-master.git
     - ls -al fireball-master/src
-    - cd fireball-begin/src
-    - ./runme_before_compile.sh
-    - ls -al
-    - make begin.x
-    - make begin-looprc.x
-    - ls -al libs/
-    - make lbegin.x
-    - make lbegin-looprc.x
-
+    - cd fireball-begin
+    - ./configure
+    - make distcheck
 
 script: true
     # make check PFUNIT=pfunit
